@@ -15,6 +15,8 @@ import java.time.Duration;
 @Listeners(TestListener.class)
 public class BootStrapModelsTest extends BaseTest {
 
+    //git changes 2 for demo practice
+
     @Test(description = "Verification of the auto close Message")
     public void autoCloseMessage() throws InterruptedException {
         //dashboard change
