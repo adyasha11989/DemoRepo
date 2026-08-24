@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 public class AssertionHelper {
+    //changes made from git hub
     SoftAssert softAssert;
 
     public AssertionHelper() {
