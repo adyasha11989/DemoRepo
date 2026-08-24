@@ -17,6 +17,7 @@ public class BootStrapModelsTest extends BaseTest {
 
     @Test(description = "Verification of the auto close Message")
     public void autoCloseMessage() throws InterruptedException {
+        //dashboard change
         WebElement bootStrapAlertPage = driver.findElement(By.xpath("//a[text()='Bootstrap Alerts']"));
      bootStrapAlertPage.click();
         Thread.sleep(2000);
